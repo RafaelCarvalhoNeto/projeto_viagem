@@ -7,10 +7,6 @@
 .bg-success{
     background-color: #a5c15d !important;
 }
-
-img .minicard{
-    max-height: 100px;
-}
 h2::before{
     content: "";
     height: 45px;
@@ -38,7 +34,7 @@ h2::after{
     justify-content: space-around;
 }
 .minicard{
-    height: 150px;
+    height: 160px;
 }
 .minicard2{
     order:1
@@ -49,4 +45,9 @@ h2::after{
 }
 .borda{
     margin-top: 58px;
+}
+.hist .alinha{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }

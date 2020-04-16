@@ -157,39 +157,47 @@
     <section class="row">
         <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">Depoimentos</h2>
         <div class="col-6 pl-0">
-            <div class="d-flex bg-warning text-dark">
-                <img class="p-2 minicard" src="./assets/img/placeholder-02-13.jpg" alt=""> 
-                <div class="p-4">
-                    <h4>Título</h4>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
+            <div class="row bg-warning text-dark m-1" style="align-items:center">
+                    <div class="col-6 p-0">
+                        <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
+                    </div>
+                    <div class="p-3 col-6">
+                        <h4>Título</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
             </div>
         </div>
-        <div class="col-6 pr-0">
-            <div class="d-flex bg-warning text-dark">
-                <img class="p-2 minicard" src="./assets/img/placeholder-02-13.jpg" alt="">
-                <div class="p-3">
+        <div class="col-6 pr-0 my-2.5">
+            <div class="row bg-warning text-dark m-1" style="align-items:center">
+                <div class="col-6 p-0">
+                    <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
+                </div>
+                <div class="p-3 col-6">
                     <h4>Título</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                 </div>
             </div>
-        </div>       
+        </div>           
     </section>
     
     <section class="row mt-4">
         <div class="col-6 pl-0">
-            <div class="d-flex bg-warning text-dark">
-                <img class="p-2 minicard minicard2" src="./assets/img/placeholder-02-13.jpg" alt=""> 
-                <div class="p-3">
+            <div class="row bg-warning text-dark m-1" style="align-items:center">
+                <div class="col-6 p-0 minicard2">
+                    <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
+                </div>
+                <div class="p-3 col-6">
                     <h4>Título</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
+                 </div>
             </div>
         </div>
         <div class="col-6 pr-0 my-2.5">
-            <div class="d-flex bg-warning text-dark"">
-                <img class="p-2 minicard minicard2" src="./assets/img/placeholder-02-13.jpg" alt="">
-                <div class="p-3">
+            <div class="row bg-warning text-dark m-1" style="align-items:center">
+                <div class="col-6 p-0 minicard2">
+                    <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
+                </div>
+                <div class="p-3 col-6">
                     <h4>Título</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                 </div>
@@ -202,12 +210,12 @@
         <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">História</h2>
         <div class="col-12 p-0">
             <div class="d-flex bg-info text-white">
-                <div class="reducao2">
-                    <img class="" src="./assets/img/placeholder-02-13.jpg" alt="" >
+                <div>
+                    <img class="d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="" >
                 </div>
-                <div class="p-3">
+                <div class="p-3 d-flex" style="flex-direction:column; justify-content: space-around">
                     <h4>Título</h4>
-                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit itaque necessitatibus repudiandae accusamus quam, quae rerum vero, unde suscipit, pariatur est numquam dolor esse iste odit? Vitae esse est repellendus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias id quia itaque unde, in aliquid nostrum corrupti vitae distinctio, soluta iste inventore neque. Voluptas beatae placeat aperiam exercitationem delectus consectetur?</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit itaque necessitatibus repudiandae accusamus quam, quae rerum vero, unde suscipit, pariatur est numquam dolor esse iste odit? Vitae esse est repellendus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias id quia itaque unde, in aliquid nostrum corrupti vitae distinctio, soluta iste inventore neque. Voluptas beatae placeat aperiam exercitationem delectus consectetur?</p>
                 </div>
             </div>
         </div>
