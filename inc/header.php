@@ -1,6 +1,6 @@
 <body>
     <header>
-        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
             <a class="navbar-brand" href="#">
                 <img src="https://slack.global.ssl.fastly.net/9427/img/icons/app-256.png" alt="Logo" width=30px height=30px>
                 Umbrella Corp
@@ -14,16 +14,16 @@
                         <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Produtos</a>
+                        <a class="nav-link" href="#">Roteiros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="#">Cidades</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
+                        <a class="nav-link" href="#">Depoimentos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled" href="#">Em construção</a>
+                        <a class="btn btn-primary" href="#" data-toggle="modal" data-target="#modalLogin">Login</a>
                     </li>
                 </ul>
             </div>

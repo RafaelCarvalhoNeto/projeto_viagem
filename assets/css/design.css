@@ -1,0 +1,52 @@
+.reducao img{
+    height: 475px;
+    width: 800px;
+    filter: brightness(0.5);
+}
+
+.bg-success{
+    background-color: #a5c15d !important;
+}
+
+img .minicard{
+    max-height: 100px;
+}
+h2::before{
+    content: "";
+    height: 45px;
+    width: 5px;
+    background-color: #fff;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 30px;
+    bottom: 0;
+}
+h2::after{
+    content: "";
+    height: 45px;
+    width: 5px;
+    background-color: #fff;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 30px;
+    bottom: 0;
+}
+.textcarro{
+    flex-direction: column;
+    justify-content: space-around;
+}
+.minicard{
+    height: 150px;
+}
+.minicard2{
+    order:1
+}
+.reducao2 img{
+    height: 425px;
+    width: 650px;
+}
+.borda{
+    margin-top: 58px;
+}

@@ -1,10 +1,17 @@
 <footer class="container-fluid bg-dark text-white mt-4 p-3">
   <div class="row">
-    <section class="col-12 col-md-6">
-      <ul style="list-style:none;padding:0;margin:0">
-        <li><a class="text-white" style="text-decoration:none;" href="mailto:fulano@fulanitos.com">fulano@fulanitos.com</a></li>
-        <li><a class="text-white" style="text-decoration:none;" href="tel:+5511987654321">11 987 654 321</a></li>
-      </ul>
+    <section class="col-12 col-md-6 pl-5 pr-5">
+      <h4>Inscreva-se</h4>
+      <p>Acompanhe todas as novidades, textos, notícias e dicas que postamos</p>
+          <form action="" method="post">
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Insira seu email">
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" id="senha" placeholder="Insira sua senha" aria-describedby="passwordHelp">
+          </div>
+          <button class="btn btn-primary rounded float-right" type="buttom">Buscar</button>
+        </form>
     </section>
     <section class="col-12 col-md-6">
       <ul style="list-style:none;padding:0;margin:0">
@@ -14,6 +21,9 @@
     </section>
   </div>
 </footer>
+
+
+
 <!-- Modal Login -->
 <div class="modal fade" id="modalLogin" tabindex="-1" role="dialog" aria-labelledby="modalLoginLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">

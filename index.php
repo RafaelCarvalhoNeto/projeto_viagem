@@ -3,126 +3,227 @@
 <!-- TRAZ O HEADER -->
 <?php require_once("./inc/header.php"); ?>
 
-<!-- Carrossel Bootstrap -->
-<div id="carrosselBootstrap" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-        <li data-target="#carrosselBootstrap" data-slide-to="0" class="active"></li>
-        <li data-target="#carrosselBootstrap" data-slide-to="1"></li>
-        <li data-target="#carrosselBootstrap" data-slide-to="2"></li>
-        <li data-target="#carrosselBootstrap" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1717605060d%20text%20%7B%20fill%3A%23555%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1717605060d%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22285.9140625%22%20y%3D%22217.83125%22%3ESlide%20Um%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="First slide">
-            <div class="carousel-caption d-none d-sm-block">
-                <h5>Título 1</h5>
-                <p>Descrição 1</p>
+<section class="container-fluid borda">
+    <div class="row bg-dark text-white">
+
+        <!-- Carrossel Bootstrap -->
+        <div class="col-lg-7 p-0">
+            <div id="carrosselBootstrap" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carrosselBootstrap" data-slide-to="0" class="active"></li>
+                    <li data-target="#carrosselBootstrap" data-slide-to="1"></li>
+                    <li data-target="#carrosselBootstrap" data-slide-to="2"></li>
+                    <li data-target="#carrosselBootstrap" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="reducao">
+                            <img class="d-block w-100" src="./assets/img/placeholder-02-08.jpg" alt="First slide"> 
+                        </div>
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h5>Pirâmides</h5>
+                            <p>This is a wider card with supporting text</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="reducao">
+                            <img class="d-block w-100" src="./assets/img/placeholder-02-09.jpg" alt="Second slide"> 
+                        </div>
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h5>Pôr-do-Sol</h5>
+                            <p>This is a wider card with supporting text</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="reducao">
+                            <img class="d-block w-100" src="./assets/img/placeholder-02-10.jpg" alt="Third slide"> 
+                        </div>
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h5>Cairo Tower</h5>
+                            <p>This is a wider card with supporting text</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="reducao">
+                            <img class="d-block w-100" src="./assets/img/placeholder-02-11.jpg" alt="Fourth slide"> 
+                        </div>
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h5>Esfinge</h5>
+                            <p>This is a wider card with supporting text</p>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#carrosselBootstrap" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#carrosselBootstrap" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Próximo</span>
+                </a>
             </div>
         </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1717605060f%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1717605060f%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3046875%22%20y%3D%22217.83125%22%3ESlide%20Dois%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Second slide">
-            <div class="carousel-caption d-none d-sm-block">
-                <h5>Título 2</h5>
-                <p>Descrição 2</p>
+
+        <!--TEXTO LATERAL-->
+        <div class="col-lg-5 p-4 d-flex textcarro">
+            <div>
+                <h1 class="display-4">Explore o inacreditável Egito</h1>
+                <p class="lead pb-4">Terras dos faraós, de belezas naturais de cair o queixo.</p>
             </div>
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17176050610%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17176050610%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22276.9921875%22%20y%3D%22217.83125%22%3ESlide%20Três%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Third slide">
-            <div class="carousel-caption d-none d-sm-block">
-                <h5>Título 3</h5>
-                <p>Descrição 3</p>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_1717605060f%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_1717605060f%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3046875%22%20y%3D%22217.83125%22%3ESlide%20Quatro%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Second slide">
-            <div class="carousel-caption d-none d-sm-block">
-                <h5>Título 4</h5>
-                <p>Descrição 4</p>
-            </div>
+            <div>
+                <form action="">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Lugares" aria-label="Lugares">
+                        <div class="input-group-append">
+                            <button class="btn btn-primary" type="buttom">Buscar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>    
+            
         </div>
     </div>
-    <a class="carousel-control-prev" href="#carrosselBootstrap" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Anterior</span>
-    </a>
-    <a class="carousel-control-next" href="#carrosselBootstrap" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Próximo</span>
-    </a>
-</div>
+</section>
+
 <main class="container">
+
+    <!--ROTEIROS-->
     <section id="catX" class="row">
-        <!-- Card Deck -->
-        <h2 class="col-12 text-center text-info mt-5 mb-3">Categoria X</h2>
+        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">Roteiros</h2>
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22222%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20222%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17176456475%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17176456475%22%3E%3Crect%20width%3D%22222%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2282.859375%22%20y%3D%2294.95%22%3E222x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
-                <div class="card-body">
+                <img class="card-img-top" src="./assets/img/placeholder-02-12.jpg">
+                <div class="card-body bg-success text-white">
                     <h4 class="card-title">Produto X1</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
-                <div class="card-footer">
+                <div class="card-footer bg-success text-white">
                     <span class="badge badge-pill badge-info">PROMO</span>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22222%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20222%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17176456475%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17176456475%22%3E%3Crect%20width%3D%22222%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2282.859375%22%20y%3D%2294.95%22%3E222x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
-                <div class="card-body">
+                <img class="card-img-top" src="./assets/img/placeholder-02-13.jpg">
+                <div class="card-body bg-success text-white">
                     <h4 class="card-title">Produto X2</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
-                <div class="card-footer">
+                <div class="card-footer bg-success text-white">
                     <span class="badge badge-pill badge-info">PROMO</span>
                 </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22222%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20222%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17176456475%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17176456475%22%3E%3Crect%20width%3D%22222%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2282.859375%22%20y%3D%2294.95%22%3E222x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
-                <div class="card-body">
-                    <h4 class="card-title">Produto X3</h4>
+                <img class="card-img-top" src="./assets/img/placeholder-02-14.jpg" alt="Card image cap">
+                <div class="card-body bg-success text-white">
+                    <h4 class="card-title">Produto Y1</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
-                <div class="card-footer">
+                <div class="card-footer bg-success text-white">
                     <span class="badge badge-pill badge-info">PROMO</span>
                 </div>
             </div>
         </div>
     </section>
+
+    <!--CIDADES-->
     <section id="catY" class="row">
-        <!-- Card Deck -->
-        <h2 class="col-12 text-center text-info mt-5 mb-3">Categoria Y</h2>
+        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white" >Cidades</h2>
         <div class="card-deck">
             <div class="card">
-                <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22222%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20222%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17176456475%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17176456475%22%3E%3Crect%20width%3D%22222%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2282.859375%22%20y%3D%2294.95%22%3E222x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+                <img class="card-img-top" src="./assets/img/placeholder-02-15.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Produto Y1</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
-                <div class="card-footer">
-                    <span class="badge badge-pill badge-info">PROMO</span>
-                </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22222%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20222%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17176456475%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17176456475%22%3E%3Crect%20width%3D%22222%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2282.859375%22%20y%3D%2294.95%22%3E222x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+                <img class="card-img-top" src="./assets/img/placeholder-02-13.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Produto Y2</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
-                <div class="card-footer">
-                    <span class="badge badge-pill badge-info">PROMO</span>
-                </div>
             </div>
             <div class="card">
-                <img class="card-img-top" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22222%22%20height%3D%22180%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20222%20180%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_17176456475%20text%20%7B%20fill%3Argba(255%2C255%2C255%2C.75)%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A11pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_17176456475%22%3E%3Crect%20width%3D%22222%22%20height%3D%22180%22%20fill%3D%22%23777%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%2282.859375%22%20y%3D%2294.95%22%3E222x180%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Card image cap">
+                <img class="card-img-top" src="./assets/img/placeholder-02-15.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Produto Y3</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
-                <div class="card-footer">
-                    <span class="badge badge-pill badge-info">PROMO</span>
+            </div>
+        </div>
+    </section>
+
+    <!--DEPOIMENTOS-->
+    <section class="row">
+        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">Depoimentos</h2>
+        <div class="col-6 pl-0">
+            <div class="d-flex bg-warning text-dark">
+                <img class="p-2 minicard" src="./assets/img/placeholder-02-13.jpg" alt=""> 
+                <div class="p-4">
+                    <h4>Título</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 pr-0">
+            <div class="d-flex bg-warning text-dark">
+                <img class="p-2 minicard" src="./assets/img/placeholder-02-13.jpg" alt="">
+                <div class="p-3">
+                    <h4>Título</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+        </div>       
+    </section>
+    
+    <section class="row mt-4">
+        <div class="col-6 pl-0">
+            <div class="d-flex bg-warning text-dark">
+                <img class="p-2 minicard minicard2" src="./assets/img/placeholder-02-13.jpg" alt=""> 
+                <div class="p-3">
+                    <h4>Título</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-6 pr-0 my-2.5">
+            <div class="d-flex bg-warning text-dark"">
+                <img class="p-2 minicard minicard2" src="./assets/img/placeholder-02-13.jpg" alt="">
+                <div class="p-3">
+                    <h4>Título</h4>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+        </div>       
+    </section>
+
+    <!--HISTÓRIA-->
+    <section class="row">
+        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">História</h2>
+        <div class="col-12 p-0">
+            <div class="d-flex bg-info text-white">
+                <div class="reducao2">
+                    <img class="" src="./assets/img/placeholder-02-13.jpg" alt="" >
+                </div>
+                <div class="p-3">
+                    <h4>Título</h4>
+                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit itaque necessitatibus repudiandae accusamus quam, quae rerum vero, unde suscipit, pariatur est numquam dolor esse iste odit? Vitae esse est repellendus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias id quia itaque unde, in aliquid nostrum corrupti vitae distinctio, soluta iste inventore neque. Voluptas beatae placeat aperiam exercitationem delectus consectetur?</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <section class="row">
+        <div class="col-12 mt-5 mb-3">
+            <div>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ex repellat temporibus ea hic eveniet sit cum architecto alias atque, accusamus, exercitationem ipsa sunt magnam eum consectetur ratione? Sed, labore.
+            </div>
+            
+        </div>
+
+    </section>
+
+
 </main>
 <!-- TRAZ O FOOTER -->
 <?php require_once("./inc/footer.php"); ?>
