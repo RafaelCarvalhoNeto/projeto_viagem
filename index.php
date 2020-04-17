@@ -89,9 +89,10 @@
 <main class="container">
 
     <!--ROTEIROS-->
-    <section id="catX" class="row">
+    <section class="row">
         <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">Roteiros</h2>
-        <div class="card-deck">
+
+        <div class="col-sm-6 col-md-4">
             <div class="card">
                 <img class="card-img-top" src="./assets/img/placeholder-02-12.jpg">
                 <div class="card-body bg-success text-white">
@@ -99,9 +100,13 @@
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
                 <div class="card-footer bg-success text-white">
-                    <span class="badge badge-pill badge-info">PROMO</span>
+                    <a href="#" class="card-link"><span class="badge badge-pill badge-info">#comida</span></a>
+                    <a href="#" class="card-link"><span class="badge badge-pill badge-info">#passeio</span></a>
                 </div>
             </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 p-0">
             <div class="card">
                 <img class="card-img-top" src="./assets/img/placeholder-02-13.jpg">
                 <div class="card-body bg-success text-white">
@@ -112,6 +117,9 @@
                     <span class="badge badge-pill badge-info">PROMO</span>
                 </div>
             </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 p-0">
             <div class="card">
                 <img class="card-img-top" src="./assets/img/placeholder-02-14.jpg" alt="Card image cap">
                 <div class="card-body bg-success text-white">
@@ -128,6 +136,7 @@
     <!--CIDADES-->
     <section id="catY" class="row">
         <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white" >Cidades</h2>
+
         <div class="card-deck">
             <div class="card">
                 <img class="card-img-top" src="./assets/img/placeholder-02-15.jpg" alt="Card image cap">
@@ -156,23 +165,23 @@
     <!--DEPOIMENTOS-->
     <section class="row">
         <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">Depoimentos</h2>
-        <div class="col-6 pl-0">
+        <div class="col-md-6 col-sm-12">
             <div class="row bg-warning text-dark m-1" style="align-items:center">
-                    <div class="col-6 p-0">
+                    <div class="col-lg-6 col-md-12 p-0">
                         <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
                     </div>
-                    <div class="p-3 col-6">
+                    <div class="p-3 col-lg-6 col-md-12">
                         <h4>Título</h4>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                     </div>
             </div>
         </div>
-        <div class="col-6 pr-0 my-2.5">
+        <div class="col-md-6 col-sm-12 my-2.5">
             <div class="row bg-warning text-dark m-1" style="align-items:center">
-                <div class="col-6 p-0">
+                <div class="col-lg-6 col-md-12 p-0">
                     <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
                 </div>
-                <div class="p-3 col-6">
+                <div class="p-3 col-lg-6 col-md-12">
                     <h4>Título</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                 </div>
@@ -181,23 +190,23 @@
     </section>
     
     <section class="row mt-4">
-        <div class="col-6 pl-0">
+        <div class="col-md-6 col-sm-12">
             <div class="row bg-warning text-dark m-1" style="align-items:center">
-                <div class="col-6 p-0 minicard2">
+                <div class="col-lg-6 col-md-12 p-0 minicard2">
                     <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
                 </div>
-                <div class="p-3 col-6">
+                <div class="p-3 col-lg-6 col-md-12">
                     <h4>Título</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                  </div>
             </div>
         </div>
-        <div class="col-6 pr-0 my-2.5">
+        <div class="col-md-6 col-sm-12 my-2.5">
             <div class="row bg-warning text-dark m-1" style="align-items:center">
-                <div class="col-6 p-0 minicard2">
+                <div class="col-md-6 col-l-12 p-0 minicard2">
                     <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
                 </div>
-                <div class="p-3 col-6">
+                <div class="p-3 col-md-6 col-sm-12">
                     <h4>Título</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
                 </div>
@@ -208,8 +217,9 @@
     <!--HISTÓRIA-->
     <section class="row">
         <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">História</h2>
+        
         <div class="col-12 p-0">
-            <div class="d-flex bg-info text-white">
+            <div class="d-lg-flex bg-info text-white d-sm-block">
                 <div>
                     <img class="d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="" >
                 </div>
