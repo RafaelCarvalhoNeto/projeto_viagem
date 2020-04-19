@@ -226,7 +226,7 @@
     <section class="row">
         <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">Depoimentos</h2>
         <div class="row">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 avancar">
                 <div class="row bg-warning text-dark m-0 mb-3" style="align-items:center">
                     <div class="col-lg-6 col-md-12 p-0">
                         <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
@@ -237,7 +237,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 my-2.5">
+            <div class="col-md-6 col-sm-12 avancar">
                 <div class="row bg-warning text-dark m-0 mb-3" style="align-items:center">
                     <div class="col-lg-6 col-md-12 p-0">
                         <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
@@ -251,18 +251,18 @@
         </div>
 
         <div class="row">
-            <div class="col-md-6 col-sm-12">
+            <div class="col-md-6 col-sm-12 avancar">
                 <div class="row bg-warning text-dark m-0  mb-3" style="align-items:center">
-                        <div class="col-lg-6 col-md-12 p-0">
-                            <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
-                        </div>
-                        <div class="p-3 col-lg-6 col-md-12">
-                            <h4>Título</h4>
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-                        </div>
+                    <div class="col-lg-6 col-md-12 p-0">
+                        <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
+                    </div>
+                    <div class="p-3 col-lg-6 col-md-12">
+                        <h4>Título</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 my-2.5">
+            <div class="col-md-6 col-sm-12 avancar">
                 <div class="row bg-warning text-dark m-0  mb-3" style="align-items:center">
                     <div class="col-lg-6 col-md-12 p-0">
                         <img class="p-2 d-block w-100" src="./assets/img/placeholder-02-13.jpg" alt="">
@@ -333,7 +333,54 @@
         </div>
 
     </section>
-<p id="carro" class="carros">Carro</p>
+
+
+    <section class="row">
+            
+        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">Roteiros</h2>
+        <div class="row">
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-3">
+                    <img class="card-img-top" src="./assets/img/placeholder-02-12.jpg">
+                    <div class="card-body bg-success text-white">
+                        <h4 class="card-title">Produto X1</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer bg-success text-white">
+                        <a href="#" class="card-link"><span class="badge badge-pill badge-info">#comida</span></a>
+                        <a href="#" class="card-link"><span class="badge badge-pill badge-info">#passeio</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-3">
+                    <img class="card-img-top" src="./assets/img/placeholder-02-13.jpg">
+                    <div class="card-body bg-success text-white">
+                        <h4 class="card-title">Produto X2</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer bg-success text-white">
+                        <span class="badge badge-pill badge-info">PROMO</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="card mb-3">
+                    <img class="card-img-top" src="./assets/img/placeholder-02-14.jpg" alt="Card image cap">
+                    <div class="card-body bg-success text-white">
+                        <h4 class="card-title">Produto Y1</h4>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    </div>
+                    <div class="card-footer bg-success text-white">
+                        <span class="badge badge-pill badge-info">PROMO</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 </main>
 <!-- TRAZ O FOOTER -->

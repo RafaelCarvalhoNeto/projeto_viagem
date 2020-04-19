@@ -1,3 +1,10 @@
+#carro {
+    background-color: blue;
+}
+.carros{
+    color: violet;
+} 
+
 .reducao img{
     height: 475px;
     width: 800px;
@@ -57,17 +64,14 @@ h2::after{
     height: 380px;
 }
 
-#carro {
-    background-color: blue;
-}
-.carros{
-    color: violet;
-} 
-.card .mb-3{
-    transition: scale 0.8s ease-in-out
+
+
+.card:hover,
+.avancar{
+    transition: all 0.3s ease-in-out
 }
 
-.card .mb-3:hover{
+.card:hover,
+.avancar:hover{
     transform: scale(1.05)
 }
-
