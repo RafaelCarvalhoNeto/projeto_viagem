@@ -56,3 +56,18 @@ h2::after{
     overflow: auto;
     height: 380px;
 }
+
+#carro {
+    background-color: blue;
+}
+.carros{
+    color: violet;
+} 
+.card .mb-3{
+    transition: scale 0.8s ease-in-out
+}
+
+.card .mb-3:hover{
+    transform: scale(1.05)
+}
+
