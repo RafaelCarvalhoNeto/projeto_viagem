@@ -91,7 +91,7 @@
     <!--ROTEIROS-->
     <section class="row">
             
-        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">Roteiros</h2>
+        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white paragrafo"><i class="fas fa-comment"></i>Roteiros</h2>
         <div id="carrosselRoteiros" class="carousel slide" data-ride="carousel">
 
             <div class="carousel-inner">
@@ -102,7 +102,7 @@
                 <div class="carousel-item active">
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
-                            <div class="card mb-3">
+                            <div class="card mb-3 avancar">
                                 <img class="card-img-top" src="./assets/img/placeholder-02-12.jpg">
                                 <div class="card-body bg-success text-white">
                                     <h4 class="card-title">Produto X1</h4>
@@ -116,7 +116,7 @@
                         </div>
 
                         <div class="col-sm-6 col-md-4">
-                            <div class="card mb-3">
+                            <div class="card mb-3 avancar">
                                 <img class="card-img-top" src="./assets/img/placeholder-02-13.jpg">
                                 <div class="card-body bg-success text-white">
                                     <h4 class="card-title">Produto X2</h4>
@@ -129,7 +129,7 @@
                         </div>
 
                         <div class="col-sm-6 col-md-4">
-                            <div class="card mb-3">
+                            <div class="card mb-3 avancar">
                                 <img class="card-img-top" src="./assets/img/placeholder-02-14.jpg" alt="Card image cap">
                                 <div class="card-body bg-success text-white">
                                     <h4 class="card-title">Produto Y1</h4>
@@ -146,7 +146,7 @@
                 <div class="carousel-item">
                     <div class="row">
                         <div class="col-sm-6 col-md-4">
-                            <div class="card mb-3">
+                            <div class="card mb-3 avancar">
                                 <img class="card-img-top" src="./assets/img/placeholder-02-12.jpg">
                                 <div class="card-body bg-success text-white">
                                     <h4 class="card-title">Produto X4</h4>
@@ -160,7 +160,7 @@
                         </div>
 
                         <div class="col-sm-6 col-md-4">
-                            <div class="card mb-3">
+                            <div class="card mb-3 avancar">
                                 <img class="card-img-top" src="./assets/img/placeholder-02-13.jpg">
                                 <div class="card-body bg-success text-white">
                                     <h4 class="card-title">Produto X5</h4>
@@ -173,7 +173,7 @@
                         </div>
 
                         <div class="col-sm-6 col-md-4">
-                            <div class="card mb-3">
+                            <div class="card mb-3 avancar">
                                 <img class="card-img-top" src="./assets/img/placeholder-02-14.jpg" alt="Card image cap">
                                 <div class="card-body bg-success text-white">
                                     <h4 class="card-title">Produto Y7</h4>
@@ -187,32 +187,41 @@
                     </div>
                 </div>
 
-
-
             </div>
         </div>
     </section>
 
     <!--CIDADES-->
     <section id="catY" class="row">
-        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white" >Cidades</h2>
+        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white" ><i class="fas fa-city"></i>Cidades</h2>
 
         <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="./assets/img/placeholder-02-15.jpg" alt="Card image cap">
+            <div class="card avancar">
+                <!-- TESTE -->
+                <div class="card-header bg-success text-white text-center">
+                    <h5>Promoção</h5>
+                </div>
+
+                <img class="card-img teste1" src="./assets/img/placeholder-02-15.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Produto Y1</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card avancar">
+                <div class="card-header bg-danger text-white text-center">
+                    <h5>5% de Desconto</h5>
+                </div>
                 <img class="card-img-top" src="./assets/img/placeholder-02-13.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Produto Y2</h4>
                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                 </div>
             </div>
-            <div class="card">
+            <div class="card avancar">
+                <div class="card-header bg-warning text-white text-center">
+                    <h5>Frete Grátis</h5>
+                </div>
                 <img class="card-img-top" src="./assets/img/placeholder-02-15.jpg" alt="Card image cap">
                 <div class="card-body">
                     <h4 class="card-title">Produto Y3</h4>
@@ -224,7 +233,7 @@
 
     <!--DEPOIMENTOS-->
     <section class="row">
-        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">Depoimentos</h2>
+        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white"><i class="fas fa-feather-alt"></i>Depoimentos</h2>
         <div class="row">
             <div class="col-md-6 col-sm-12 avancar">
                 <div class="row bg-warning text-dark m-0 mb-3" style="align-items:center">
@@ -282,7 +291,7 @@
 
     <!--HISTÓRIA-->
     <section class="row">
-        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white">História</h2>
+        <h2 class="col-12 text-center p-3 mt-5 mb-3 text-uppercase bg-dark text-white"><i class="fas fa-book"></i>História</h2>
 
         <div id="carrosselHistoria" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
@@ -380,7 +389,6 @@
             </div>
         </div>
     </section>
-
 
 </main>
 <!-- TRAZ O FOOTER -->
